@@ -1,0 +1,26 @@
+.container {
+  padding: 10px;
+}
+
+.topic-note {
+  padding: 10px;
+  background-color: #eeeeee;
+  margin-bottom: 15px;
+  border-radius: 2px;
+}
+
+.topic-note-image {
+  border-radius: 2px;
+}
+
+.topic-filter-found {
+  color: #808080;
+}
+
+.topic-filters .columns:last-child {
+  float: left;
+}
+
+.header {
+  background-color: #eeeeee;
+}

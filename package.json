@@ -1,0 +1,59 @@
+{
+  "name": "disucssion",
+  "version": "1.0.0",
+  "description": "displays transcript from a discussion.",
+  "main": "server.js",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "develop": "webpack --watch",
+    "start": "node server.js",
+    "eslint": "./node_modules/.bin/eslint --ext=js --ext=jsx ./**",
+    "reseed": "node reseed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chapinkapa/discussion.git"
+  },
+  "author": "Alex Price",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chapinkapa/discussion/issues"
+  },
+  "engines": {
+    "node": "4.2.2"
+  },
+  "homepage": "https://github.com/chapinkapa/discussion#readme",
+  "peerDependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "dependencies": {
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "history": "1.13.x",
+    "immutable": "^3.7.5",
+    "mongoose": "^4.3.4",
+    "mysql": "^2.9.0",
+    "react-redux": "^4.0.1",
+    "redux": "^3.0.5",
+    "redux-thunk": "^1.0.0",
+    "superagent": "^1.5.0",
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.0.0",
+    "eslint-plugin-react": "^3.11.3"
+  }
+}
